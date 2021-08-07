@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #EBF2ED;
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -20px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 20px;
+  background-clip: padding-box;
+}
+.my-masonry-grid_column > div {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
